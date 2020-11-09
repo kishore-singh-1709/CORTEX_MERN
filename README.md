@@ -1,6 +1,75 @@
-## ReactJs -Frontend / NodeJs - Backend / MongoDB - DataBase
+## ReactJs -Frontend / NodeJs - Backend / ExpressJs - Connectivity / MongoDB - DataBase
 
-An Application to demonstrate various parts of a service oriented RESTful application with security.
+A Simple Project Ticket Management Tool (CORTEX) using MongoDB, React.js, Express.js, Node.js Tech Stacks
+to demonstrate various parts of a service oriented RESTful application with security.
+
+### Screenshots
+
+#### Signin
+
+## ![Signin](/screenshots/signin.PNG?raw=true)
+
+#### SignUp
+
+## ![SignUp](/screenshots/signup.PNG?raw=true)
+
+#### Signin Validation
+
+## ![Signin Validation](/screenshots/signIn_validation.PNG?raw=true)
+
+#### Backend Connectivity Lost
+
+## ![Backend Connectivity Lost](/screenshots/Backend_Connectivity_issue_simulation.PNG?raw=true)
+
+#### Admin Page - Ticket Delete Option
+
+## ![Admin Page - Ticket Delete Option](/screenshots/admin_page_with_delete_option.PNG?raw=true)
+
+#### Status Form - Admin Page - Status Create Secured Page/REST End point
+
+## ![Status Form - Admin Page - Status Create Secured Page/REST End point](/screenshots/status_entry_page_admin.PNG?raw=true)
+
+#### Ticket Form - Form / Field - Client Validation
+
+## ![Ticket Form - Form / Field - Client Validation](/screenshots/form_client_validation.PNG?raw=true)
+
+#### Dashboard - User Page without Delete option
+
+## ![Dashboard - User Page without Delete option](/screenshots/user_page_without_delete_option.PNG?raw=true)
+
+#### Dashboard - Search Feature
+
+## ![Dashboard - Search Feature](/screenshots/search_feature.PNG?raw=true)
+
+#### Dashboard - Sort / Paginate Feature
+
+## ![Dashboard - Sort / Paginate Feature](/screenshots/status_sort_feature.PNG?raw=true)
+
+#### API - Tickets - POST/Body
+
+## ![API - Tickets - POST/Body](/screenshots/api/tickets_post_body.PNG?raw=true)
+
+#### API - Tickets - POST/Header
+
+## ![API - Tickets - POST/Header](/screenshots/api/tickets_post_header_jwt_token.PNG?raw=true)
+
+#### API - Users - POST/Body
+
+## ![API - Users - POST/Body](/screenshots/api/users_post_body.PNG?raw=true)
+
+#### Database Schema
+
+#### Status DB Schema
+
+## ![Status DB Schema](/screenshots/schema/status.PNG?raw=true)
+
+#### Tickets DB Schema
+
+## ![Tickets DB Schema](/screenshots/schema/tickets.PNG?raw=true)
+
+#### Users DB Schema
+
+## ![Users DB Schema](/screenshots/schema/users.PNG?raw=true)
 
 #### Heroku Hosted
 
@@ -35,6 +104,7 @@ PROJECT_FOLDER
 │  .env.production
 │  .env.development
 │  .env
+└──[cortex-server]  #contains Server side files(To simulate in local env,segregate this folder and host assign individual client server ports)
 └──[public]         #contains main Index.html, App gets rendered under this hood
 └──[screenshots]    #contains Application Pages screenshots
 └──[src]
@@ -193,73 +263,3 @@ after you get the authentication token you must provide this in the header for a
 ```bash
 curl -X GET --header 'Accept: application/json' --header 'Authorization: [replace this with token ]' 'http://localhost:3901/api/tickets'
 ```
-
-**To get an authentication token**
-
-### Screenshots
-
-#### Signin
-
-## ![Signin](/screenshots/signin.PNG?raw=true)
-
-#### SignUp
-
-## ![SignUp](/screenshots/signup.PNG?raw=true)
-
-#### Signin Validation
-
-## ![Signin Validation](/screenshots/signIn_validation.PNG?raw=true)
-
-#### Backend Connectivity Lost
-
-## ![Backend Connectivity Lost](/screenshots/Backend_Connectivity_issue_simulation.PNG?raw=true)
-
-#### Admin Page - Ticket Delete Option
-
-## ![Admin Page - Ticket Delete Option](/screenshots/admin_page_with_delete_option.PNG?raw=true)
-
-#### Status Form - Admin Page - Status Create Secured Page/REST End point
-
-## ![Status Form - Admin Page - Status Create Secured Page/REST End point](/screenshots/status_entry_page_admin.PNG?raw=true)
-
-#### Ticket Form - Form / Field - Client Validation
-
-## ![Ticket Form - Form / Field - Client Validation](/screenshots/form_client_validation.PNG?raw=true)
-
-#### Dashboard - User Page without Delete option
-
-## ![Dashboard - User Page without Delete option](/screenshots/user_page_without_delete_option.PNG?raw=true)
-
-#### Dashboard - Search Feature
-
-## ![Dashboard - Search Feature](/screenshots/search_feature.PNG?raw=true)
-
-#### Dashboard - Sort / Paginate Feature
-
-## ![Dashboard - Sort / Paginate Feature](/screenshots/status_sort_feature.PNG?raw=true)
-
-#### API - Tickets - POST/Body
-
-## ![API - Tickets - POST/Body](/screenshots/api/tickets_post_body.PNG?raw=true)
-
-#### API - Tickets - POST/Header
-
-## ![API - Tickets - POST/Header](/screenshots/api/tickets_post_header_jwt_token.PNG?raw=true)
-
-#### API - Users - POST/Body
-
-## ![API - Users - POST/Body](/screenshots/api/users_post_body.PNG?raw=true)
-
-#### Database Schema
-
-#### Status DB Schema
-
-## ![Status DB Schema](/screenshots/schema/status.PNG?raw=true)
-
-#### Tickets DB Schema
-
-## ![Tickets DB Schema](/screenshots/schema/tickets.PNG?raw=true)
-
-#### Users DB Schema
-
-## ![Users DB Schema](/screenshots/schema/users.PNG?raw=true)

@@ -1,0 +1,5 @@
+{
+    "jwtPrivateKey":"cortex_jwtPrivateKey",
+    "db": "mongodb://localhost:27017/cortex",
+    "db_log": "connected to mongoDb cortex"
+}

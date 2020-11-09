@@ -1,0 +1,7 @@
+{
+    "jwtPrivateKey":"privateKey",
+    "db": "mongodb://localhost:27017/cortex",
+    "db_log": "connected to mongoDb cortex",
+    "port": "3901",
+    "requiresAuth": true
+}
