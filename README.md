@@ -21,6 +21,10 @@ to demonstrate various parts of a service oriented RESTful application with secu
 
 ## ![Backend Connectivity Lost](/screenshots/Backend_Connectivity_issue_simulation.PNG?raw=true)
 
+#### Invalid Route Handle
+
+## ![Invalid Route Handle](/screenshots/invalid_route_handle_404_display_1.PNG?raw=true)
+
 #### Admin Page - Ticket Delete Option
 
 ## ![Admin Page - Ticket Delete Option](/screenshots/admin_page_with_delete_option.PNG?raw=true)
@@ -97,13 +101,7 @@ Allow couple of minutes to let the instance start
 
 ```bash
 PROJECT_FOLDER
-│  README.md
-│  package.json
-|  package-lock.json
-|  debug.log
-│  .env.production
-│  .env.development
-│  .env
+│  build            #contains client-react production build files
 └──[cortex-server]  #contains Server side files(To simulate in local env,segregate this folder and host assign individual client server ports)
 └──[public]         #contains main Index.html, App gets rendered under this hood
 └──[screenshots]    #contains Application Pages screenshots
@@ -220,7 +218,7 @@ npm run build
 
 ```
 
-### Build Backend (NodeJs)
+### Build Backend (coretx-server - NodeJs)
 
 ```bash
 # Navigate to PROJECT_FOLDER/ (should contain package.json)
