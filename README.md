@@ -1,4 +1,4 @@
-## ReactJs -Frontend / NodeJs - Backend / ExpressJs - Connectivity / MongoDB - DataBase
+## CORTEX - An Project Ticket Management Tool
 
 A Simple Project Ticket Management Tool (CORTEX) using MongoDB, React.js, Express.js, Node.js Tech Stacks
 to demonstrate various parts of a service oriented RESTful application with security.
