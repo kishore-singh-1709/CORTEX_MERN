@@ -1,6 +1,6 @@
-## React 17 Frontent with NodeJs as Backend
+## ReactJs -Frontend / NodeJs - Backend / MongoDB - DataBase
 
-Application to demonstrate various parts of a service oriented RESTful application.
+An Application to demonstrate various parts of a service oriented RESTful application with security.
 
 #### Heroku Hosted
 
@@ -35,6 +35,8 @@ PROJECT_FOLDER
 │  .env.production
 │  .env.development
 │  .env
+└──[public]         #contains main Index.html, App gets rendered under this hood
+└──[screenshots]    #contains Application Pages screenshots
 └──[src]
 │  └──[component]
 │     └──[common]   #contains re-usable components which are consumed in SPA pages
@@ -52,7 +54,7 @@ PROJECT_FOLDER
 | .env  #contains Proxy REST Api url for development
 | .env.development #contains Proxy REST Api url for development
 | .env.production  #contains Proxy REST Api url for Production
-| debug.log
+|  debug.log
 │  README.md #Contains Project Detailed Info
 │  package.json #Contains Project' Dependencies
 |  package-lock.json #Contains Project' Inner Dependencies
@@ -138,8 +140,7 @@ curl -X GET --header 'Accept: application/json' --header 'Authorization: xxx.xxx
 
 ### Build Frontend (optional step)
 
-Code for frontend is already compiled and saved under the `webui/dist`
-when building the backend app (using maven) it will pickup the code from `webui/dist`. However if you modified the frontend code and want your changes to get reflected then you must build the frontend
+Code for frontend is already compiled and saved under the `build/`
 
 ```bash
 # Navigate to PROJECT_FOLDER/ (should contain package.json )
@@ -174,10 +175,10 @@ node index.js
 
 ### Accessing Application
 
-| Component        | URL                   | Credentials                                                              |
-| ---------------- | --------------------- | ------------------------------------------------------------------------ |
-| Frontend         | http://localhost:3000 | `User@gmail.com\User`                                                    |
-| MongoDB Database |                       | Driver:`org.h2.Driver` <br/> JDBC URL:`mongodb://localhost:27017/cortex` |
+| Component        | URL                   | Credentials                                                   |
+| ---------------- | --------------------- | ------------------------------------------------------------- |
+| Frontend         | http://localhost:3000 | `User@gmail.com\User`                                         |
+| MongoDB Database |                       | Driver:`mongoDB` <br/> URL:`mongodb://localhost:27017/cortex` |
 
 **To get an authentication token**
 
