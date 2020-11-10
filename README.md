@@ -75,13 +75,6 @@ to demonstrate various parts of a service oriented RESTful application with secu
 
 ## ![Users DB Schema](/screenshots/schema/users.PNG?raw=true)
 
-#### Heroku Hosted
-
-Allow couple of minutes to let the instance start
-
-- [WebApp](https://infomud.herokuapp.com/)
-- [Api Doc (swagger)](https://infomud.herokuapp.com/swagger/index.html)
-
 ### Technology Stack
 
 | Component          | Technology                                                                                           |
